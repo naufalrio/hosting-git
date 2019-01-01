@@ -1,0 +1,34 @@
+<html>
+	<head>
+		<title>Form Penerima</title>
+	</head>
+	<body>
+		<h3 align="center">Form Pendaftaran Admin</h3>
+		<form action="form2.php" method="GET" align="center">
+			Nama : <input type="text" name="nama"/></br>
+			Password : <input type="text" name="password"/></br>
+			Jenis Kelamin :
+				<input type="radio" name="jeniskelamin" value="laki-laki" checked /> Laki - Laki
+				<input type="radio" name="jeniskelamin" value="perempuan"  /> Perempuan
+			</br>
+			Keahlian:
+				<input type="checkbox" name"keahlian" value="menari"/> Menari
+				<input type="checkbox" name"keahlian" value="memanah"checked/> Memanah
+				<input type="checkbox" name"keahlian" value="memakan"/> Memakan
+			</br>
+			Tempat Lahir
+				<select name="tempatlahir">
+					<option value="jakarta">Jakarta </option>
+					<option value="semarang">Semarang </option>
+					<option value="surabaya" selected>Surabaya </option>
+				</select>
+			</br>
+			Deskripsi Diri
+				<textarea name:"deskripsi" rows="5" cols="28">
+				</textarea>
+			</br>
+				<input type="submit" value="enter">
+				<input type="reset" value="reset">
+		</form>
+	</body>
+</html>

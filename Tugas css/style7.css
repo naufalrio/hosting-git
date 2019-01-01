@@ -1,0 +1,307 @@
+/* pengaura body */
+body {
+	background-color: red !important;
+	text-align		: center;
+	font-family		: verdana, tahoma, helvetica;
+	font-size		: 12px;
+}
+
+/* pengaturan layout */
+
+.layout {
+	background	:#fff;
+	width		:980px;
+	margin		:auto;
+	text-align	:left;
+	padding		:2px
+}
+
+.header{
+	width		:100%;
+	height		:130px;
+	text-align	:#02a2dB;
+	position	:relative;
+}
+
+.header{
+	width	:100%;
+	height	:130px;
+}
+
+
+/* pengaturan menu */
+.menu{
+	width				:100%;
+	height				:40px;
+	background-color	:maroon;
+	position			:relative;
+}
+
+.menu ul {
+	margin		:0;
+	padding		:0;
+	list-style	:none;
+}
+
+.menu ul li {
+		float : left;
+}
+
+.menu ul li a{
+	float		: left;
+	color		:#d4d4d4;
+	padding		:12px 20px; 
+	text-decoration:none;
+	background	:maroon;
+	border-left	:1px solid #3C4042;
+	border-right:1px solid #3c4042;
+	text-shadow :0 -1px 1px rgba(0,0,0,0, 6);
+}	
+
+.menu ul li a :hover{
+	color		: white;
+	background: #3c4042;
+}
+
+.runningtext{
+	width		:100%;
+	height		:25px;
+	padding-top	:7px;
+	margin		:5px 0 5px 0;
+	background-color : black;
+	color		:white;
+	position	:relative;
+}	
+
+
+
+.sidebar{
+	padding:5px; 
+	width:27%;
+	background-color:#d3beaa;
+	position:relative;
+	float:right;
+	/* memberikan efek garis putus putus */
+	border-style: dotted;
+	border-width: 1px; 
+}
+
+.widget {
+	width: 99%;
+	background-bottom:5px;
+	background:#ffffff ;
+	border-top: 1px solid #DFDFDF ;
+	border-left: 1px solid #DFDFDF;
+	border-right: 1px solid #DFDFDF;
+	border-bottom: 1px solid #DFDFDF;
+	font-size: 100%;
+	margin: 0px 0px 5px 0px;
+}
+
+/* pengaturan gambar iklan dengan gambar pada widget */
+.cumagambar{
+	width: 99%;
+	height: 150px;
+}
+
+/* pengaturan huruf judul widget */
+
+.judulwidget{
+	background: #d74006;
+	padding: 5px 10px 5px 10px;
+	margin: 0px 0px 0px 0px;
+	text-align:center;
+	color: white;
+	font-weight:bold;
+	font-size: 15px;
+	margin-bottom: 5px;
+}
+
+.widget ul{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	list-style-type: none;
+}
+
+.widget li {
+	padding: 0px 0px 0px 0px;			/*top right bottom left*/
+	background-position: left;
+	background-repeat: no-repeat;
+	color: #333333;
+}
+
+.widget li a {
+	color: #333333;
+	border-bottom: 1px dotted #cccccc ;
+	text-decoration: none;
+	display: block;
+	margin-bottom: 5px;
+	padding: 4px 5px 3px 10px;
+}
+
+.widget li a :hover{
+	color: blue;
+}
+
+/* pengaturan isi */
+.isi{
+	padding: 5px ;
+	width: 70%;
+	height: auto;
+	background-color: #ba7584 ;
+	position: relative ;
+	margin-top: 5px ;
+}
+
+/* pengaturan isi postingan */
+.isipostingan{
+	background-color: #bc9d64;
+	width: 98% ;
+	height: 200px ;
+	margin-bottom: 5px ;
+	padding: 5px;
+}
+/* pengaturan isi postingan gambar depan */
+.gambardepan{
+	float: left;
+	height: 140px;
+	width: 150px;
+	margin-right: 5px;
+	margin-top: 3px;
+	padding: 1px;
+	border: 1px solid #dddddd;
+}
+
+/* pengaturan heading2 (judul) */
+.isipostingan h2{
+	font-size: 20px;
+	font-weight: bold;
+	color: #ffffff;
+	margin-top: 10px;
+	margin-bottom: 3px;
+}
+
+.isipostingan a:hover{
+	color: yellow ;
+}
+
+.footer{
+	width: 100% ;
+	height: 50px ;
+	margin-top: 5px;
+	padding-top: 30px;
+	background-color:#49494e ;
+	color: white;
+	font-size: 12pt;
+	font-weight: bold;
+	text-align: center;
+	position: relative;
+	clear: both;
+
+}
+
+.isipostingankabeh{
+	background-color: #bc9d64;
+	height: 98%;
+	width: auto;
+	margin-bottom: 5px;
+	padding: 5px;
+}
+
+.isipostingankabeh h2{
+	text-align: center; ;
+	color: maroon;
+	font-size: 20px;
+	font-weight:bold; 
+}
+
+.gambarposting1{
+	width: 290px;
+	height: 220px;
+	margin: 90px 5px 5px 10px;
+	float: right;
+}
+
+.profilku{
+	height: 225px;
+	width: 200px;
+	float: left;
+	padding-right: 5px;
+	display: block;
+}
+
+.profilku h2{
+	text-align: center;
+	color: blue;
+	font-size: 20px ;
+	font-weight: bold;
+}
+
+.kontak {
+	text-align: center;
+	color: maroon;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.gallery{
+	padding-right: 5px;
+	padding-left: 5px;
+	margin-left: 70px;
+	float: center;
+	position: relative;
+}
+/************************************************************************************
+MEDIA QUERIES
+*************************************************************************************/
+/* untuk ukuran 1080px kebawah */
+@media screen and (max-width: 1080px) {
+	
+	.container {
+		width: 100%;
+	}
+	.left {
+		width: 25%;
+		background: #fff000;
+	}
+	.middle {
+		width: 68%;
+		float: right;
+	}
+	
+	.right {
+		clear: both;
+		padding: 1% 4%;
+		width: auto;
+		float: none;
+	}
+}
+
+
+/* untuk ukuran layar 700px kebawah */
+@media screen and (max-width: 780px) {
+	
+	.header, 
+	.footer{
+		text-align: center;
+	}
+	.left {
+		width: auto;
+		float: none;
+	}
+	
+	.middle {
+		width: auto;
+		float: none;
+	}
+	
+	.right {
+		width: auto;
+		float: none;
+	}
+
+}
+
+
+
+
